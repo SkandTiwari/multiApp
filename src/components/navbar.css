@@ -1,7 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
+
 }
+
+body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
 
 .navbar-top{
     display: flex;
@@ -24,11 +31,13 @@
     padding: 0px 0px 0px 0px;
 }
 
-.navbar-bottom{
+
+
+.navbar-bottom {
     display: flex;
     justify-content: space-around;
     border: 2px;
-    height: 100px;
+    height: 91px;
     box-shadow: 0px 12px 16px grey;
 }
 
@@ -39,15 +48,15 @@
     padding: 16px 0px 0px 23px;
 }
 
-#weather-card:hover{
+#weather-card:focus{
     border-bottom: 6px solid #1a73e8;
 }
 
-#todo-card:hover{
+#todo-card:focus{
     border-bottom: 6px solid #1a73e8;
 }
 
-#calc-card:hover{
+#calc-card:focus{
     
     border-bottom: 6px solid #1a73e8;
 }
