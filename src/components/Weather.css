@@ -42,21 +42,24 @@ body{
   }
   
 
+
+
 .submit {
     height: 46px;
     width: 100px;
     border-radius: 31px;
     background-color: #1451f7;
     color: white;
-    font-size: 26px;
+    font-size: 30px;
     font-family: cursive;
     font-weight: bold;
     margin: 168px 0px 0px 63px;
-    padding: 6px 20px 3px 34px;
+    padding: 6px 20px 3px 23px;
 }
 
 .submit:hover{
-    background-color: darkblue;
+    background-color: #20bf6b;
+    cursor: pointer;
 }
 
 
@@ -119,7 +122,7 @@ body{
     outline: 0;
     border-width: 0px 0 4px;
     border-color: #1451f7;
-    font-size: 26px;
+    font-size: 31px;
     font-family: cursive;
     font-weight: bold;
 }

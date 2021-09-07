@@ -9,6 +9,8 @@ body{
 
 
 
+
+
 .container {
     top: 50%;
     left: 50%;
@@ -18,9 +20,11 @@ body{
     width: 648px;
     /* height: 92%; */
     text-align: center;
-    border: 10px solid #4169e1;
+    border: 10px solid white;
     background: whitesmoke;
     border-radius: 15px;
+    /* box-shadow: 1px 0px 0px grey; */
+    box-shadow: 2px 5px 72px grey;
 }
 
 
@@ -31,6 +35,8 @@ body{
 }
 
 
+
+
 .calc-input {
     height: 184px;
     width: 634px;
@@ -38,7 +44,7 @@ body{
     border: 0px;
     color: whitesmoke;
     text-align: right;
-    font-size: 25px;
+    font-size: 67px;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -59,15 +65,16 @@ body{
 
 
   button {
-      margin: 5px;
-      width: 90%;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      background: #4169e1;
-      color: whitesmoke;
-      font-weight: 500;
-  }
+    margin: 5px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #4169e1;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 31px;
+}
   input:focus,
   input:active,
   button:focus,
